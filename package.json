@@ -1,0 +1,17 @@
+{
+  "name": "science-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Science / AAAS journals and SPJ: discovery via RSS, PubMed, Crossref; open full text via PMC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test-eutils.mjs && node test.mjs",
+    "test:unit": "node test-eutils.mjs",
+    "test:live": "node test.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1",
+    "zod": "^4.6.5"
+  }
+}
